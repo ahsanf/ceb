@@ -105,17 +105,17 @@ body {
 
 .main-tambahan {
     height: calc(100vh - 61px);
+    color: #fff;
+    background-color: transparent;
+}
+
+.new-main {
     display: inline-block;
     align-items: center;
     text-align: center;
-    color: #fff;
 }
 
-.main-tambahan p {
-    font-size: 18px;
-}
-
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .container {
         max-width: 720px;
     }
