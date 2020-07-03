@@ -114,7 +114,7 @@ body {
     height: calc(100vh - 61px);
 }
 
- .intro-area {
+.intro-area {
     height: calc(100vh - 61px);
     display: flex;
     align-items: left;
@@ -144,11 +144,12 @@ body {
 }
 
 .image-intro-area {
-    float: left;
-    margin-left: 172px;
+    float: right;
+    padding: 50px;
+    /* margin-left: 172px;
     margin-top: 132px;
     margin-right: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 64px; */
 }
 
 .btn {
@@ -158,7 +159,6 @@ body {
     text-decoration: none;
     margin-top: 24px;
     margin-bottom: 24px;
-
 }
 
 .daftar {
@@ -184,8 +184,6 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 
 @media screen and (max-width: 767px) {
     .container {
@@ -256,4 +254,24 @@ body {
 .box-container {
     display: content;
     margin-top: 20px;
+}
+
+.container-block {
+    display: flex;
+}
+
+.contentBox {
+    width: 100%;
+}
+
+.contentBox h4 {
+    color: #038C98;
+}
+
+.contentBox img {
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
