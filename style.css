@@ -25,6 +25,7 @@ body {
 }
 
 .header-area {
+    background: url(img/rectangel-header.svg);
     /*background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(img/an.jpg);*/
     background-position: center center;
     background-size: cover;
@@ -113,6 +114,79 @@ body {
     height: calc(100vh - 61px);
 }
 
+ .intro-area {
+    height: calc(100vh - 61px);
+    display: flex;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.intro-area h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 25px;
+    color: #038C98;
+}
+
+.intro-area p {
+    font-size: 18px;
+    color: #038C98;
+}
+
+.wrapper {
+    padding-top: 160px;
+    margin-top: 133px;
+    margin-left: 12px;
+    float: left;
+}
+
+.image-intro-area {
+    float: left;
+    margin-left: 172px;
+    margin-top: 132px;
+    margin-right: 64px;
+    margin-bottom: 64px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.daftar {
+    background-color: #038C98;
+    border-color: #038C98;
+    border-style: solid;
+    border-radius: 50px;
+    color: white;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.lihat {
+    border-color: #038C98;
+    border-style: solid;
+    border-radius: 50px;
+    color: #038C98;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .container {
         max-width: 720px;
@@ -182,50 +256,4 @@ body {
 .box-container {
     display: content;
     margin-top: 20px;
-}
-
-.intro-area {
-    height: calc(100vh - 61px);
-    display: flex;
-    align-items: left;
-    text-align: left;
-    color: #fff;
-    margin-top: 80px;
-}
-
-.intro-area h1 {
-    font-size: 72px;
-    font-weight: bold;
-    line-height: 50px;
-    margin-bottom: 25px;
-    color: #038C98;
-}
-
-.intro-area p {
-    font-size: 18px;
-    color: #038C98;
-}
-
-.wrapper {
-    padding-top: 160px;
-    margin-top: 133px;
-    margin-left: 12px;
-    float: left;
-}
-
-.image-intro-area {
-    float: left;
-    margin-left: 172px;
-    margin-top: 132px;
-    margin-right: 64px;
-    margin-bottom: 64px;
-}
-
-.btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
