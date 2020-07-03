@@ -214,8 +214,25 @@ a.site-logo {
         max-height: 100vh;
         overflow: visible;
     }
-    .intro-area h2 {
-        font-size: 36px;
+    .intro-area h1 {
+        widows: 360px;
+        font-size: 48px;
         margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .wrapper {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    img {
+        width: 120%;
+        height: auto;
+    }
+    .image-intro-area {
+        float: left;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-right: 64px;
+        margin-bottom: 64px;
     }
 }
