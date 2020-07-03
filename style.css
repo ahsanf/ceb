@@ -11,6 +11,12 @@ body {
     line-height: 20px;
 }
 
+.new-main {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -19,6 +25,7 @@ body {
 }
 
 .header-area {
+    /*background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(img/an.jpg);*/
     background-position: center center;
     background-size: cover;
 }
@@ -104,12 +111,6 @@ body {
 
 .main-tambahan {
     height: calc(100vh - 61px);
-}
-
-.new-main {
-    display: inline-block;
-    align-items: center;
-    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
