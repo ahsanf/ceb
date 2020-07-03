@@ -19,7 +19,7 @@ body {
 }
 
 .header-area {
-    background: url(img/rectangel-header.svg);
+    /* background: url(img/rectangel-header.svg); */
     background-position: center center;
     background-size: cover;
 }
@@ -105,8 +105,6 @@ body {
 
 .main-tambahan {
     height: calc(100vh - 61px);
-    color: #fff;
-    background-color: transparent;
 }
 
 .new-main {
