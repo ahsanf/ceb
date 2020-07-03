@@ -11,6 +11,12 @@ body {
     line-height: 20px;
 }
 
+.new-main {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -19,14 +25,15 @@ body {
 }
 
 .header-area {
+    background: url(img/rectangel-header.svg);
     /*background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(img/an.jpg);*/
     background-position: center center;
     background-size: cover;
 }
 
 .navbar-area {
-    background: rgba(0, 0, 0, .6);
-    border-bottom: 1px solid #000;
+    background: rgba(255, 255, 255, 255);
+    background-color: transparent;
 }
 
 .site-navbar {
@@ -35,12 +42,12 @@ body {
     align-items: center;
 }
 
-a.site-logo {
-    font-size: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
+.logo-container {
+    display: inline;
+}
+
+.logo-container img {
+    width: 250px;
 }
 
 .site-navbar ul {
@@ -51,11 +58,11 @@ a.site-logo {
 }
 
 .site-navbar ul li a {
-    color: #fff;
-    padding: 20px;
+    color: #038C98;
+    padding: 40px;
     display: block;
+    font-style: normal;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .site-navbar ul li a:hover {
@@ -63,7 +70,7 @@ a.site-logo {
 }
 
 .nav-toggler {
-    border: 3px solid #fff;
+    border: 3px solid #038C98;
     padding: 5px;
     background-color: transparent;
     cursor: pointer;
@@ -76,7 +83,7 @@ a.site-logo {
 .nav-toggler span:after {
     width: 28px;
     height: 3px;
-    background-color: #fff;
+    background-color: #038C98;
     display: block;
     transition: .3s;
 }
@@ -103,7 +110,11 @@ a.site-logo {
     transform: translateY(-3px) rotate(-45deg);
 }
 
-.intro-area {
+.main-tambahan {
+    height: calc(100vh - 61px);
+}
+
+ .intro-area {
     height: calc(100vh - 61px);
     display: flex;
     align-items: left;
@@ -147,6 +158,7 @@ a.site-logo {
     text-decoration: none;
     margin-top: 24px;
     margin-bottom: 24px;
+
 }
 
 .daftar {
@@ -194,7 +206,6 @@ a.site-logo {
         top: 60px;
         flex-direction: column;
         align-items: center;
-        border-top: 1px solid #444;
         background-color: rgba(0, 0, 0, .75);
         max-height: 0;
         overflow: hidden;
@@ -214,8 +225,35 @@ a.site-logo {
         max-height: 100vh;
         overflow: visible;
     }
-    .intro-area h2 {
+    .main-tambahan h2 {
         font-size: 36px;
         margin-bottom: 15px;
     }
+    .text-container {
+        display: inline-flex;
+        margin-top: 20px;
+        max-width: 720px;
+    }
+    .text-container h1 {
+        color: #038C98;
+    }
+    .box-container {
+        display: content;
+        margin-top: 20px;
+        max-width: 720px;
+    }
+}
+
+.text-container {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.text-container h1 {
+    color: #038C98;
+}
+
+.box-container {
+    display: content;
+    margin-top: 20px;
 }
